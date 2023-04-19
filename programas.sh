@@ -29,7 +29,4 @@ sudo chown -R vnmsnake /home/vnmsnake/repos/paru-bin
 cd /home/vnmsnake/repos/paru-bin
 makepkg -si
 mkdir /home/vnmsnake/.config/qtile
-sleep 1s
-cp /home/vnmsnake/pacman/config.py /home/vnmsnake/.config/qtile/
-wget https://www.todofondos.net/wp-content/uploads/1920x1080-Uchiha-Itachi-Crow-Wallpaper.-I-HD-Imagen-768x432.png
 reboot
