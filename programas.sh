@@ -2,7 +2,7 @@
 sudo pacman -Syu --noconfirm 
 sudo pacman -S xf86-video-ati qtile picom code feh nitrogen wget htop make lsd bat npm tmux xorg xorg-xinit xorg-server mesa mesa-demos --noconfirm
 sudo pacman -S curl gdm nano pulseaudio volumeicon pavucontrol pamixer terminator firefox rofi noto-fonts ttf-dejavu ttf-liberation --noconfirm
-sudo pacman -S base -devel arandr ranger grub-customizer net-tools neofetch --noconfirm
+sudo pacman -S base-devel arandr ranger grub-customizer net-tools neofetch --noconfirm
 ##otros 
 systemctl enable gdm.service
 neofetch >> neo.txt
